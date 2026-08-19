@@ -24,13 +24,11 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "compilerOptions": {
-      "baseUrl": ".",
-      "paths": {
-        "@/*": [
-          "./src/*"
-        ]
-      }
+    /* Path aliases */
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
   "include": [
